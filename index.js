@@ -21,6 +21,6 @@ function greet(timeString){
 }
 /* Write your implementation of displayMessage() */
 function displayMessage(testContent){
-  document.getElementById("greeting").innerHtml = testContent
+  document.getElementById("greeting").innerText = testContent
 
 }
